@@ -12,17 +12,18 @@ h1 {
     font-family: "Pacifico", cursive;
     display: inline;
     font-size: 2.4rem;
-    border-bottom: 5px solid #232323;
+    border-bottom: 5px solid #155e75;
 }
 
 h2 {
     font-size: 1.8rem;
     font-family: "Pacifico", cursive;
-    border-bottom: 3px solid #232323;
+    border-bottom: 3px solid #155e75;
 }
 
 body {
-    background-color: #FFFF8F;
+    color: #155e75;
+    background-color: #cffafe;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -34,8 +35,8 @@ body {
     border: none;
     border-radius: 1rem;
     cursor: pointer;
-    background-color: #FAFA33;
-    color: #232323;
+    background-color:#155e75;
+    color: white;
     font-size: 1rem;
     width: 300px;
     margin: 0.5rem;
@@ -45,7 +46,7 @@ body {
 #text-input {
     outline: none;
     border-radius: 1rem;
-    background-color: white;
+    background-color: #67e8f9;
     font-size: 1.2rem;
     display: block;
     width: 50%;
@@ -69,7 +70,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background-color: #FAFA33;
+    
     width: 100%;
 }
 
@@ -86,14 +87,14 @@ footer p {
     padding: 1rem;
     border: 3px solid gray;
     border-radius: 1rem;
-    background-color: white;
+    background-color: #67e8f9;
 }
 
 .header {
     padding: 1rem 2rem 3rem;
     text-align: center;
     margin-bottom: 1rem;
-    background-color: #FAFA33;
+    
     width: 30%;
     border: none;
     border-radius: 1rem;
